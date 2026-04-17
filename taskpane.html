@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Claude Assistant</title>
+  <link rel="stylesheet" href="taskpane.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="logo">⚡ Claude</div>
+      <div class="status">Connected</div>
+    </header>
+
+    <div class="actions">
+      <button onclick="run('summarize')">Summarize</button>
+      <button onclick="run('rewrite')">Rewrite</button>
+      <button onclick="run('slide')">Slides</button>
+    </div>
+
+    <div class="custom">
+      <textarea id="prompt" placeholder="Custom instruction..."></textarea>
+      <button class="run" onclick="run('custom')">Run</button>
+    </div>
+
+    <div class="output">
+      <div class="output-header">
+        <span>Result</span>
+        <button onclick="insert()">Insert</button>
+      </div>
+      <pre id="result"></pre>
+    </div>
+  </div>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>
