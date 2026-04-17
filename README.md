@@ -1,3 +1,4 @@
+
 # Claude for Microsoft Office
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -10,7 +11,7 @@
 
 ## Preview
 
-![Claude Office UI](./docs/design.png)
+<img width="1536" height="1024" alt="content" src="https://github.com/user-attachments/assets/da39b186-811c-43fd-b0ba-f86e00e9f08b" />
 
 ---
 
